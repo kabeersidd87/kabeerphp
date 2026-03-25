@@ -33,6 +33,8 @@ unset($_SESSION['error']);
 <h2>Login</h2>
 <!-- change for github not needed for code -->
  <h2>git check</h2>
+ <!-- second change -->
+  <h2>git check2</h2>
 <?php if($error) echo "<p style='color:red;'>$error</p>"; ?>
 <form method="POST">
 <input type="email" name                                                                                                                                                                                                                                                        ="email" placeholder="Email" required><br><br>
